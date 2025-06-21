@@ -11,7 +11,7 @@
     ></script>
     <!-- tailwind css and daisyui link -->
     <linkhref
-      ="https://cdn.jsdelivr.net/npm/daisyui@5"
+      src="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
       type="text/css"
     />
@@ -30,7 +30,7 @@
           Optimum Satisfaction To Your Taste Buds.
         </p>
         <button
-          class="text-xl text-white bg-gradient-to-r from-orange-400 to-red-600 p-2 rounded-sm"
+          class="text-xl text-white bg-gradient-to-r from-orange-400 to-red-600 p-2 rounded-lg"
         >
           Explore More<i class="fa-solid fa-arrow-right ml-1 -rotate-45"></i>
         </button>
@@ -235,37 +235,103 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
           <!-- Blog 1 -->
           <div class="border-2 border-gray-200 rounded-xl p-8">
-            <img src="./images/news-1.png" alt="">
+            <img src="./images/news-1.png" alt="" />
             <div>
               <p class="text-stone-400 mt-2">Feb 05, 2027</p>
-              <h2 class="card-title text-xl font-bold mt-2">Collecting 8 points for discount</h2>
-              <p class="text-stone-400">There are many variations of passages of Lorem Ipsum available.</p>
+              <h2 class="card-title text-xl font-bold mt-2">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-stone-400">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
               <button class="btn btn-primary mt-2">Learn More</button>
             </div>
           </div>
           <!-- bloge 2 -->
           <div class="border-2 border-gray-200 rounded-xl p-8">
-            <img src="./images/news-2.png" alt="">
+            <img src="./images/news-2.png" alt="" />
             <div>
               <p class="text-stone-400 mt-2">Feb 05, 2027</p>
-              <h2 class="card-title text-xl font-bold mt-2">Collecting 8 points for discount</h2>
-              <p class="text-stone-400">There are many variations of passages of Lorem Ipsum available.</p>
+              <h2 class="card-title text-xl font-bold mt-2">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-stone-400">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
               <button class="btn btn-primary mt-2">Learn More</button>
             </div>
           </div>
           <!-- bloge 3 -->
           <div class="border-2 border-gray-200 rounded-xl p-8">
-            <img src="./images/news-3.png" alt="">
+            <img src="./images/news-3.png" alt="" />
             <div>
               <p class="text-stone-400 mt-2">Feb 05, 2027</p>
-              <h2 class="card-title text-xl font-bold mt-2">Collecting 8 points for discount</h2>
-              <p class="text-stone-400">There are many variations of passages of Lorem Ipsum available.</p>
+              <h2 class="card-title text-xl font-bold mt-2">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-stone-400">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
               <button class="btn btn-primary mt-2">Learn More</button>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-gradient-to-r from-orange-100 to-red-100">
+      <section class="w-4/5 mx-auto mt-16 py-20">
+        <div class="flex  justify-between">
+          <img src="./images/cup.png" alt="" />
+          <div class="flex items-center gap-4">
+            <p>Ready to get strated?</p>
+            <button
+              class="text-xl text-white bg-gradient-to-r from-orange-400 to-red-600 py-2 px-4 rounded-lg"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <!-- footer menu section -->
+        <div>
+          <section
+            class="footer md:flex justify-between sm:footer-horizontal bg-base-200 text-base-content pt-10"
+          >
+            <nav class="flex flex-col">
+              <h6 class="text-xl font-bold">Company</h6>
+              <a class="link link-hover">Home</a>
+              <a class="link link-hover">About Us</a>
+              <a class="link link-hover">Contact Us</a>
+              <a class="link link-hover">Our Reviews</a>
+            </nav>
+            <nav class="flex flex-col">
+              <h6 class="text-xl font-bold">Services</h6>
+              <a class="link link-hover">Milk Tea</a>
+              <a class="link link-hover">Black Tea</a>
+              <a class="link link-hover">Lemon Tea</a>
+              <a class="link link-hover">Green Tea</a>
+            </nav>
+            <nav class="flex flex-col">
+              <h6 class="text-xl font-bold">Legal</h6>
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form class="flex flex-col">
+              <h6 class="footer-title text-xl font-bold">Subscribe to our newsletter</h6>
+              <fieldset class="w-80">
+                <div class="join">
+                  <input
+                    type="text"
+                    placeholder="username@site.com"
+                    class="input input-bordered join-item"
+                  />
+                  <button class="bg-gradient-to-r from-orange-400 to-red-600 w-8 h-8 rounded-[80%]"><i class="fa-solid fa-arrow-right text-white"></i></button>
+                </div>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
